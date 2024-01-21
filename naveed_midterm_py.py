@@ -46,18 +46,18 @@ print("Temperature in Fahrenheit :", Fahrenheit)
 
 # Question Number 4 : Write a Python program that return all datatypes that we discussed in the class.
 
-m=int(input("Enter any number"))
+m=19
 print("The data type of 19 is " ,type(m))
-n=float(input("Enter any point number"))
+n=16.6
 print("The data type of 16.5 is " ,type(n))
-o=str(input("Enter any name"))
+o="your name"
 print("The data type of your name is " ,type(o))
-p=bool(input("Enter any true value"))
+p=True
 print("The data type of True is " ,type(p))
 q= [1, 2, 3]
 print("The data type of [1, 2, 3] is " ,type(q))
-r=tuple(input("Enter any tuple value"))
+r=(1,2,3)
 print("The data type of (1, 2, 3) is " ,type(r))
-s=set(input("Enter any set value"))
+s={1,2,3}
 print("The data type of {1, 2, 3} is " ,type(s))
 
